@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  codeteca-web:
+    image: jekyll/jekyll:latest
+    command: jekyll serve --watch --force_polling --verbose
+    ports:
+      - 4040:4000
+    volumes:
+      - .:/srv/jekyll
