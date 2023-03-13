@@ -6,5 +6,7 @@ main:
     url: /pildoras/
   - title: "Blog"
     url: /blog/
+  - title: "Vídeos"
+    url: /youtube/
   - title: "Contacto"
     url: /about/

@@ -112,7 +112,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
+      url: "mailto:contacta@lacodeteca.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.crakernano.com/"
@@ -157,6 +157,7 @@ include:
   - .htaccess
   - _pages
   - _pildoras
+  - _videos
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
