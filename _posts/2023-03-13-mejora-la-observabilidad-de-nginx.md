@@ -12,7 +12,7 @@ header:
 
 ---    
 
-Seguramente uses, o al menos hayas oido hablar de NGINX. De un tiempo a esta parte se ha convertido en una pieza abitual de software en nuestros despliegues,
+Seguramente uses, o al menos hayas oido hablar de NGINX. De un tiempo a esta parte se ha convertido en una pieza habitual de software en nuestros despliegues,
 ya que permite exponer un servicio web con opciones y funcionalidades para simplificar tareas como el balanceo de carga, además de poder ser empleado como
 proxy inverso.
 
@@ -20,7 +20,7 @@ Cuanto más importante se hace un elemento, más importante es controlar su esta
 Dos conceptos fundamentales si queremos estar seguros de dar un servicio confiable a nuestros usuarios.
 
 En este sentido Nginx cuenta con un módulo que no todo el mundo conoce, pero que permite mejorar la monitorización de una forma muy sencilla. Este módulo,
-que generalemnte viene ya pre-instalado (aunque deshabilidado) es el ngx_http_stub_status_module. Que nos provee de una sencilla pero eficiente "status page" en la que podemos ver datos como el número total de clientes conectados, peticiones aceptadas, solicitudes procesadas, conexiones... entre otras.
+que generalemnte viene ya pre-instalado (aunque deshabilidado en algunos casos) es el **ngx_http_stub_status_module**. Que nos provee de una sencilla pero eficiente "_status page_" en la que podemos ver datos como el número total de clientes conectados, peticiones aceptadas, solicitudes procesadas, conexiones... entre otras.
 
 Lo primero es ver si el módulo está habilitado. Podemos hacerlo con el siguiente comando:
 
@@ -28,9 +28,9 @@ Lo primero es ver si el módulo está habilitado. Podemos hacerlo con el siguien
  nginx -V 2>&1 | grep -o with-http_stub_status_module
  ```
 
-Si este comando retorna algo significa que el módulo está activo (generalmente lo estará), en caso contrario, será necesario seguir estas indicaciones para conseguirlo: [compile NGINX from source ](https://www.tecmint.com/install-nginx-in-centos-7/)
+Si este comando devuelve algo significa que el módulo está activo (generalmente lo estará), en caso contrario, será necesario seguir estas indicaciones para conseguirlo: [compile NGINX from source ](https://www.tecmint.com/install-nginx-in-centos-7/)
 
-En caso de estar corriendo Nginx en un contenedor, puedes optar por realizar esto en el Dockerfile, aunque si usas alguna de las imagenes oficiales como punto de partida ya contarás con este módulo, por lo que no será necesario: 
+En caso de estar corriendo Nginx en un contenedor, puedes optar por realizar esto en el Dockerfile, aunque si usas alguna de las imagenes oficiales como punto de partida ya contarás con este módulo, por lo que no será necesario:
 
 ```
 RUN wget http://nginx.org/download/nginx-1.13.12.tar.gz\
