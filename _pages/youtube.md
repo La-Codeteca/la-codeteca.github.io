@@ -1,7 +1,8 @@
 ---
 title: Vídeos
 layout: collection
-permalink: /youtube/
+permalink: /videos/
+collection: videos
 entries_layout: grid
 classes: wide
 
