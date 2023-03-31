@@ -17,7 +17,7 @@ feature_row:
     alt: "customizable"
     title: "Vídeo"
     excerpt: "Tutoriales y sesiones de livecoding en vídeo. No te pierdas el canal de Youtube de La Codeteca"
-    url: "/youtube/"
+    url: "/videos/"
     btn_class: "btn--primary"
     btn_label: "Ver más"
   - image_path: /assets/images/coffe.png
