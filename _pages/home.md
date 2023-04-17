@@ -8,9 +8,9 @@ excerpt: >
   Si vas a hacerlo más de dos veces, automatizalo.<br />
   <small><a href="https://github.com/La-Codeteca"><i class="fab fa-github"></i></a></small> 
   ·
-  <small><a href="https://twitter.com/trastejant"><i class="fab fa-fw fa-twitter-square"></i></a></small> 
+  <small><a href="https://twitter.com/lacodeteca"><i class="fab fa-fw fa-twitter-square"></i></a></small> 
   ·
-  <small><a href="https://youtube.com/trastejant"><i class="fab fa-youtube"></i></a></small> 
+  <small><a href="https://www.youtube.com/@La_Codeteca"><i class="fab fa-youtube"></i></a></small> 
 
 feature_row:
   - image_path: /assets/images/coffe.png
