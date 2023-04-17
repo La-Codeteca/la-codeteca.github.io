@@ -5,7 +5,11 @@ header:
 title: Curso de React-Query
 description: "Si estas buscando aprender más sobre REACT no puedes perderte este curso GRATUITO de devtalles."
 excerpt: "Si estas buscando aprender más sobre REACT no puedes perderte este curso GRATUITO de devtalles."
-tags: [Cursos, developer, front, react]
+tags: [Cursos, developer, front, react, gratis, recursos, aprendizaje, e-learning]
+categories: 
+  - Cursos
+  - React
+  - Front
 
 header:
   overlay_color: "#000000"
@@ -34,22 +38,67 @@ Si quieres ver que clase de ejercicios vas a realizar en este curso puedes echar
 No pierdas la oportunidad, aquí te dejo el enlace: Disfruta de este curso [react-query](https://cursos.devtalles.com/courses/take/react-query)
 
 ---
+<style>
+/* ToDo: MOVERLO A UN FICHERO CSS */
 
-## Todos los enlaces:
+.aditional-info::before{
+  content:url('/assets/images/console.png');
+  position: relative;
+  top:-17px;
+  left:-19px;  
+  width: 100%;
+  display: flex;
+}
 
-- [Sitio oficial de tanStack-query](https://tanstack.com/query/v3/)
-- [Mi repositorio con las prácticas](https://github.com/crakernano/curso-react-query)
-- [Sitio web del profesor](https://fernando-herrera.com/)
-- [Plataforma en la que se encuentran alojados este y más cursos](https://cursos.devtalles.com/)
+.aditional-info{
+ background-color: black;
+ color: #4e9a06;
+ padding: 10px;
+ font-size: .6rem;
+ border: #c8c8c8 outset 5px;
+ border-radius: 10px;
+ width: 724px;
+}
 
-- Si aun no dominas REACT, te recomiendo estos cursos (qué yo mismo he realizado, por eso los recomiendo):
-    - [Básico](https://www.udemy.com/course/react-cero-experto/)
-    - [Avanzado](https://www.udemy.com/course/react-pro/)
-    - [Comunicación en tiempo real](https://www.udemy.com/course/react-socket-io-fernando/)
+.aditional-info a{
+  color: #4e9a06;
+  text-decoration: none;
+  font-weight: 900;
 
----
+}
+.aditional-info li{
+  list-style-type: none;
+}
 
-### Recursos usados:
+h2, h3{
+  color: blue;
+}
 
-- Imagen online learning de [undraw](https://undraw.co/)
-- Logo de React-Query
+
+</style>
+<div class="aditional-info">
+
+<h2>/** Comentarios del post **/</h2>
+
+<h3> # Todos los enlaces:</h3>
+<ul>
+  <li> // <a href="https://tanstack.com/query/v3/">Sitio oficial de tanStack-query</a></li>
+  <li> // <a href="https://github.com/crakernano/curso-react-query">Mi repositorio con las prácticas</a></li>
+  <li> // <a href="https://fernando-herrera.com/">Sitio web del profesor</a></li>
+  <li> // <a href="https://cursos.devtalles.com/">Plataforma en la que se encuentran alojados este y más cursos</a></li>
+
+  <li> # Si aun no dominas REACT, te recomiendo estos cursos (qué yo mismo he realizado, por eso los recomiendo):</li>
+
+  <ul>
+      <li> // <a href="https://www.udemy.com/course/react-cero-experto/">Básico</a></li>
+      <li> // <a href="https://www.udemy.com/course/react-pro/">Avanzado</a></li>
+      <li> // <a href="https://www.udemy.com/course/react-socket-io-fernando/">Comunicación en tiempo real</a></li>
+  </ul>
+</ul>
+
+<h3> # Recursos usados:</h3> 
+  <ul>
+    <li> <a href="https://undraw.co/"> Imagen online learning de undraw</a></li>
+    <li> <a href=""> Logo de React-Query</a></li>
+  </ul>
+</div>
