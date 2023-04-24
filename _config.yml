@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "es-ES"
 title                    : "La Codeteca"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -96,9 +96,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag"
   google:
-    tracking_id          :
+    tracking_id          : G-2P3BTXDHPY
     anonymize_ip         : # true, false (default)
 
 
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Nano"
   avatar           : "/assets/images/avatar.png"
-  bio              : "Empecé muy pronto a aprender a programar y nunca he querido dejar de aprender. <br /> Me considero afortunado de haber podido hacer de mi pasión mi profesión."
+  bio              : "Empecé muy pronto a aprender a programar y nunca he querido dejar de aprender. <br /> \n Me considero afortunado de haber podido hacer de mi pasión mi profesión."
   location         : "Madrid, Spain"
   email            :
   links:
@@ -259,16 +259,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -289,7 +289,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
 
