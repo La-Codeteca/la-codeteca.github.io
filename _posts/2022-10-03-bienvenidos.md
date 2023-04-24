@@ -23,7 +23,7 @@ conexión a base de datos, visualización (no, tampoco usaba bootstrap) y demás
 partes que la componian eran 100% hechos desde 0. Estaba empenzando, y en
 aquel momento todo aquello parecia buena idea...
 
-![La Codeteca Logo](/assets/images/logo.png){: .image-left}
+![Logo](/assets/images/logo.png){: .align-right}
 
 Con el tiempo aprendes que si algo lo haces 100% desde 0, también lo tienes
 que mantener 100% desde cero. Y que todos los días surgen vulnerabilidades,
@@ -34,11 +34,9 @@ tu código. Y esto, por lo general, tarde o temprano, te lleva a una de estas
 dos opciones: o asumes que te has casado con ese código y vives por y para él
 o terminas abando el proyecto, con los riesgos que eso supone además en
 materia de seguridad.
-    
-![Crakernano Avatar](/assets/images/avatar.png){: .image-right}
+
+![Crakernano Avatar](/assets/images/avatar.png){: .align-left}
  
- 
-    
  En mi caso ocurrió lo segundo. Estaba inmerso en otro proyectos cómo
  <a href="https://trastejant.com" target="_blank">Trastejant</a> o
  <a href="https://nami-tech.es" target="_blank">NaMi</a>, trabajando en

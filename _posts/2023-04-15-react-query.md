@@ -1,7 +1,8 @@
 ---
-layout: splash
+layout: post
 header:
     image: /assets/images/rq-logo.png
+    teaser: /assets/images/rq-logo.png
 title: Curso de React-Query
 description: "Si estas buscando aprender más sobre REACT no puedes perderte este curso GRATUITO de devtalles."
 excerpt: "Si estas buscando aprender más sobre REACT no puedes perderte este curso GRATUITO de devtalles."
@@ -19,7 +20,7 @@ header:
 
 Antes de empezar, este no es un POST patrocinado. Ni el creador del curso, ni la plataforma que lo hospeda me han pedido de forma alguna que recomiende o publice el curso. Es más, es bastante probable que ni tan siguiera conozcan la existencia de esta web. Pero cuando las cosas se hacen bien y con cariño merecen reconocimiento, y si encima nos sirve para aprender y mejorar como desarrolladores, es importante que llegue al mayor número de personas que puedan estar interesadas.
 
-<img src="/assets/images/rq-logo.png" align="right"/>
+![RQ Logo](/assets/images/rq-logo.png){: .align-right}
 
 Así que voy a inaugurar esta sección de recomendación de cursos con uno que he terminado recientemente. Se trata de un curso de React-Query. Una librería que simplifica __enormemente__ la tarea de realizar peticiones asincronas, como puede ser la consulta a una API. En realidad React-Query es "el sabor para React" de [TanStack Query](https://tanstack.com/query/v3/), que también está disponible para otros framework de JS, así que aunque no te interese REACT, puede que te interese aprender a usar esta librería.
 
@@ -38,44 +39,7 @@ Si quieres ver que clase de ejercicios vas a realizar en este curso puedes echar
 No pierdas la oportunidad, aquí te dejo el enlace: Disfruta de este curso [react-query](https://cursos.devtalles.com/courses/take/react-query)
 
 ---
-<style>
-/* ToDo: MOVERLO A UN FICHERO CSS */
 
-.aditional-info::before{
-  content:url('/assets/images/console.png');
-  position: relative;
-  top:-17px;
-  left:-19px;  
-  width: 100%;
-  display: flex;
-}
-
-.aditional-info{
- background-color: black;
- color: #4e9a06;
- padding: 10px;
- font-size: .6rem;
- border: #c8c8c8 outset 5px;
- border-radius: 10px;
- width: 724px;
-}
-
-.aditional-info a{
-  color: #4e9a06;
-  text-decoration: none;
-  font-weight: 900;
-
-}
-.aditional-info li{
-  list-style-type: none;
-}
-
-h2, h3{
-  color: blue;
-}
-
-
-</style>
 <div class="aditional-info">
 
 <h2>/** Comentarios del post **/</h2>

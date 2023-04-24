@@ -1,11 +1,13 @@
 ---
-layout: splash
+layout: post
 header:
     image: /assets/images/lowconsumption.png
 title: Open Assistant
 description: "Open Assistant: Un ChatGPT Open Source."
 excerpt: "Open Assistant: Un ChatGPT Open Source en el que puedes colaborar."
 tags: [IA]
+categories: 
+  - IA
 
 header:
   overlay_color: "#000000"
@@ -17,7 +19,8 @@ Me alegra que una de las primeras entradas de la nueva Codeteca sea para hacer e
 Se trata de una iniciativa para crear una versión de chatGPT. Si no conoces que es [chatGPT](https://openai.com/blog/chatgpt/) se trata de un chatbot de inteligencia artificial desarrollado en 2022 por OpenAI, actualmente se encuentra en su versión 3.5 y la verdad es que ha demostrado unos resultados espectaculares a la hora de generar conversaciones 
 
 La idea detrás del proyecto Open Assistant es crear algo similar, pero en una versión Open Source. Uno de los primeros problemas que te encuentras cuando quieres entrenar un modelo tan complejo es conseguir datos para entrenar a la IA que hay detrás. 
-<img src="https://open-assistant.io/images/logos/logo.svg" align="left"/>
+
+![Logo](https://open-assistant.io/images/logos/logo.svg){: .align-left}
 
 Si no conoces mucho sobre inteligencia artificial, te contaré brevemente que hay dos fases: El entrenamiento y la ejecución del modelo.
 
@@ -31,8 +34,26 @@ Por ello, cualquiera, sin importar su formación técnica, puede colaborar con e
 
 Toda la información está en la [web del proyecto](https://open-assistant.io/es), pero te aconsejo ver el vídeo de dotCVS dónde lo explica estupendamente:
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XYT1TxINbuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% include video id="XYT1TxINbuM" provider="youtube" %}
 
 Esta propuesta salió de otro vídeo, que también [te dejo aquí](https://youtu.be/64Izfm24FKA), aunque en este caso está en ingles.
 
+<div class="aditional-info">
+
+<h2>/** Comentarios del post **/</h2>
+
+<h3> # Todos los enlaces:</h3>
+<ul>
+  <li> // <a href="https://www.youtube.com/@DotCSV" target="_blank">Canal de Youtube de DotCSV</a></li>
+  <li> // <a href="https://openai.com/blog/chatgpt/" target="_blank">ChatGPT</a></li>
+  <li> // <a href="https://open-assistant.io/es" target="_blank">Open Assistant</a></li>
+  <li> // <a href="https://youtu.be/64Izfm24FKA" target="_blank">Vídeo sobre Open Assistant</a></li>
+  <li> // <a href="https://openai.com/blog/chatgpt/" target="_blank">ChatGPT</a></li>
+</ul>
+
+<h3> # Recursos usados:</h3> 
+  <ul>
+    <li> // <a href="https://open-assistant.io/" target="_blank">Logo de Open Assistant</a></li>
+  </ul>
+
+</div>

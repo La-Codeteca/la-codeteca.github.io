@@ -1,12 +1,13 @@
 ---
-layout: splash
+layout: post
 header:
     image: /assets/images/lowconsumption.png
 title: Mejora la observabilidad de tu NGINX
 description: "Activar el módulo de status del NGINX nos permite conocer el estado del servicio de una forma sencilla. "
 excerpt: "Activar el módulo de status del NGINX nos permite conocer el estado del servicio de una forma sencilla."
 tags: [observability, SRE, NGINX]
-
+categories: 
+  - Observability
 header:
   overlay_color: "#000000"
 
