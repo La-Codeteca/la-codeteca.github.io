@@ -1,0 +1,112 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<style>
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.page__share{
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.page__related{
+    width: calc(100% - 50px) !important;
+}
+
+.aditional-info::before{
+  content:url('/assets/images/console.png');
+  position: relative;
+  top:-17px;
+  left:-19px;  
+  width: 100%;
+  display: flex;
+}
+
+.aditional-info{
+ background-color: black;
+ color: #4e9a06;
+ padding: 10px;
+ font-size: .6rem;
+ border: #c8c8c8 outset 5px;
+ border-radius: 10px;
+ width: 724px;
+}
+
+.aditional-info a{
+  color: #4e9a06;
+  text-decoration: none;
+  font-weight: 900;
+
+}
+.aditional-info li{
+  list-style-type: none;
+}
+
+.aditional-info h2, h3{
+  color: blue;
+}
+
+</style>
+
+<div id="main" role="main">
+  {% if page.url != "/" %}
+    {% include tag-list.html %}
+  {% endif %}
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+
+  <div class="row">
+    <div class="column">
+        {% if page.url != "/" %}{% include category-list.html %}{% endif %}
+    </div>
+    <div class="column">
+        {% if page.share %}{% include social-share.html %}{% endif %}
+    </div>
+  </div>
+
+  {% if page.id and page.related and site.related_posts.size > 0 %}
+    <div class="page__related">
+      <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
+      <div class="grid__wrapper">
+        {% for post in site.related_posts limit:4 %}
+          {% include archive-single.html type="grid" %}
+        {% endfor %}
+      </div>
+    </div>
+  {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
+  {% elsif page.id and page.related %}
+    <div class="page__related">
+      <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
+      <div class="grid__wrapper">
+        {% for post in site.posts limit:4 %}
+          {% if post.id == page.id %}
+            {% continue %}
+          {% endif %}
+          {% include archive-single.html type="grid" %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+</div>
