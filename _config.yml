@@ -96,7 +96,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-gtag"
+  provider               : "false"
   google:
     tracking_id          : G-2P3BTXDHPY
     anonymize_ip         : # true, false (default)
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Nano"
   avatar           : "/assets/images/avatar.png"
-  bio              : "Empecé muy pronto a aprender a programar y nunca he querido dejar de aprender. <br /> \n Me considero afortunado de haber podido hacer de mi pasión mi profesión."
+  bio              : "Empecé muy pronto a aprender a programar y nunca he querido dejar de aprender. <br /> \n <br /> \n Me considero afortunado de haber podido hacer de mi pasión mi profesión."
   location         : "Madrid, Spain"
   email            :
   links:
