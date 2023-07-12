@@ -38,26 +38,28 @@ feature_row:
 
 {% include feature_row %}
 
-## Ultimas entradas: 
+## Ultimas entradas:
 
-{% assign entries_layout = 3 | default: 'list' %}
-{% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' | limit: 3 %}
-{% for year in postsByYear limit:1 %}
-  <section id="{{ year.name }}" class="taxonomy__section">
-    <div class="entries-{{ entries_layout }}">
-    <div class="row">
-      {% for post in year.items  limit:3 %}
-      <div class="col-sm-6">
-        <div class="card">
-        <h5 class="card-title"><a href="{{post.url}}">{{post.title}}</a></h5>
-        
-        <span style="font-size:.6rem">{{ post.date | date_to_string  }}</span>
-        <p class="card-text">{{post.excerpt | strip_html | truncatewords: 30}}</p>
-        </div>
-        </div>
-      {% endfor %}
-      </div>
+<div class = "last_post">
+{% for post in site.posts limit:4 %}
+<div class = "grid__item">
+
+  <article class = "archive__item">
+    <div class = "archive__item-teaser">
+      <img src="assets/images/cabecera.png" alt="">
     </div>
-    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-  </section>
+    <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+      <p class="page__meta">
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+          {{ post.date | date_to_string  }}
+      </span>
+      </p>
+    <p class="archive__item-excerpt" itemprop="description">{{post.excerpt | strip_html | truncatewords: 30}}</p>
+  </article>
+</div>
 {% endfor %}
+
+</div>
+
+<a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
