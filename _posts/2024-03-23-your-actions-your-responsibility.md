@@ -8,8 +8,8 @@ header:
     image: /assets/images/solid/SOLID.png
     overlay_color: "#000000"
 title: Your Actions, your responsibility
-description: "."
-excerpt: "."
+description: "Visto en X by Robert C. Martin"
+excerpt: "Visto en X by Robert C. Martin"
 tags: [X, RRDD]
 categories: 
   - show-in-x

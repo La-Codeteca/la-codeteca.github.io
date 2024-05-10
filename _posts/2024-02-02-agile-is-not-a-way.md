@@ -8,8 +8,8 @@ header:
     image: /assets/images/solid/SOLID.png
     overlay_color: "#000000"
 title: Agile is not a way
-description: "."
-excerpt: "."
+description: "Visto en X by Robert C. Martin"
+excerpt: "Visto en X by Robert C. Martin"
 tags: [Agile, X, RRDD]
 categories: 
   - show-in-x
