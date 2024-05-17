@@ -5,7 +5,7 @@ comments: true
 share: true
 author_profile: false
 header:
-    image: /assets/images/paginacion/paginacion.png
+    image: /assets/images/faker/faker.png
     overlay_color: "#000000"
 title: Crear datos de prueba
 description: "A veces necesitamos datos para probar nuestras aplicaciones. Aquí te enseño a generarlos like a PRO"

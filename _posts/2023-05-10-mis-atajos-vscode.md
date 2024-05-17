@@ -5,7 +5,7 @@ comments: true
 share: true
 author_profile: false
 header:
-    image: /assets/images/paginacion/paginacion.png
+    image: /assets/images/mis-atajos-vscode/vsc-shortcut.png
     overlay_color: "#000000"
 title: Cinco atajos imprescindibles de VS code
 description: "No apartar las manos del teclaro ahorra muchisimo tiempo, aquí te dejo los atajos de Visual Studio Code sin los que yo ya no sé vivir."

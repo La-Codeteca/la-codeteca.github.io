@@ -5,7 +5,7 @@ comments: true
 share: true
 author_profile: false
 header:
-    image: /assets/images/solid/SOLID.png
+    image: /assets/images/clean_code/pollito_y_gatito_limpieza_1.jpg
     overlay_color: "#000000"
 title: Código limpio, Nombres
 description: "Una buena elección de nombres mejora enormemente la legibilidad de tu código."

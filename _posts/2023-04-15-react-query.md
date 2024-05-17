@@ -1,8 +1,8 @@
 ---
 layout: post
 header:
-    image: /assets/images/rq-logo.png
-    teaser: /assets/images/rq-logo.png
+  image: /assets/images/rq-logo.png
+  overlay_color: "#000000"
 title: Curso de React-Query
 description: "Si estas buscando aprender más sobre REACT no puedes perderte este curso GRATUITO de devtalles."
 excerpt: "Si estas buscando aprender más sobre REACT no puedes perderte este curso GRATUITO de devtalles."
@@ -11,9 +11,6 @@ categories:
   - Cursos
   - React
   - Front
-
-header:
-  overlay_color: "#000000"
 
 ---    
 

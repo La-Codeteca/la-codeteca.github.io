@@ -46,7 +46,7 @@ feature_row:
 
   <article class = "archive__item">
     <div class = "archive__item-teaser">
-      <img src="assets/images/cabecera.png" alt="">
+      <img src="{{post.header.image}}" alt="">
     </div>
     <h2><a href="{{post.url}}">{{post.title}}</a></h2>
       <p class="page__meta">

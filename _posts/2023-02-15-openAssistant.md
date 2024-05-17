@@ -1,16 +1,14 @@
 ---
 layout: post
 header:
-    image: /assets/images/lowconsumption.png
+  image: /assets/images/open_assistant/Open-Assistant-logo.png
+  overlay_color: "#000000"
 title: Open Assistant
 description: "Open Assistant: Un ChatGPT Open Source."
 excerpt: "Open Assistant: Un ChatGPT Open Source en el que puedes colaborar."
 tags: [IA]
 categories: 
   - IA
-
-header:
-  overlay_color: "#000000"
 
 ---    
 
@@ -20,7 +18,7 @@ Se trata de una iniciativa para crear una versión de chatGPT. Si no conoces que
 
 La idea detrás del proyecto Open Assistant es crear algo similar, pero en una versión Open Source. Uno de los primeros problemas que te encuentras cuando quieres entrenar un modelo tan complejo es conseguir datos para entrenar a la IA que hay detrás. 
 
-![Logo](https://open-assistant.io/images/logos/logo.svg){: .align-left}
+![Logo](/assets/images/open_assistant/Open-Assistant-logo.png){: .align-left}
 
 Si no conoces mucho sobre inteligencia artificial, te contaré brevemente que hay dos fases: El entrenamiento y la ejecución del modelo.
 

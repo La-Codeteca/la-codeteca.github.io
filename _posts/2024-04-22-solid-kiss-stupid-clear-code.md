@@ -5,7 +5,7 @@ comments: true
 share: true
 author_profile: false
 header:
-    image: /assets/images/pylint/pylint_logo.png
+    image: /assets/images/patrones/frase_motivacional.png
     overlay_color: "#000000"
 title: Programa como... 
 description: "Vamos a repasar algunos patrones, principios y conceptos que te ayudarán a escribir mejor código."

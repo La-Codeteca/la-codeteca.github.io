@@ -5,7 +5,7 @@ comments: true
 share: true
 author_profile: false
 header:
-    image: /assets/images/solid/SOLID.png
+    image: /assets/images/visto-en-x/x-handler.png
     overlay_color: "#000000"
 title: Your Actions, your responsibility
 description: "Visto en X by Robert C. Martin"
@@ -25,5 +25,5 @@ Traducción:
   Haz estas cosas porque SABES que es el camino más rápido.  
   Cuando pides permiso, estas pidiendo a otra persona que tome la responsabilidad de tus acciones.
 
-[Robert C. Martin.](https://twitter.com/unclebobmartin)
+[Robert C. Martin.](https://twitter.com/unclebobmartin)  
 Escritor de The Clean Code

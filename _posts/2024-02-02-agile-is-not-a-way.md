@@ -5,7 +5,7 @@ comments: true
 share: true
 author_profile: false
 header:
-    image: /assets/images/solid/SOLID.png
+    image: /assets/images/visto-en-x/x-handler.png
     overlay_color: "#000000"
 title: Agile is not a way
 description: "Visto en X by Robert C. Martin"
@@ -21,9 +21,9 @@ categories:
 
 Traducción:
 
-> Agile no es una forma de ir rápido. Es una manera de saber hacia dónde vas.
-  El Agile no aumenta la productividad. El Agile aumenta la manejabilidad.
-  Agile no garantiza que llegarás a tiempo. Agile destruye la esperanza de que puedas hacerlo, cuando no lo harás.
+> Agile no es una forma de ir rápido. Es una manera de saber hacia dónde vas.  
+  El Agile no aumenta la productividad. El Agile aumenta la manejabilidad.  
+  Agile no garantiza que llegarás a tiempo. Agile destruye la esperanza de que puedas hacerlo, cuando no lo harás.  
 
-[Robert C. Martin.](https://twitter.com/unclebobmartin)
+[Robert C. Martin.](https://twitter.com/unclebobmartin)  
 Escritor de The Clean Code

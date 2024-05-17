@@ -5,7 +5,7 @@ comments: true
 share: true
 author_profile: false
 header:
-    image: /assets/images/paginacion/paginacion.png
+    image: /assets/images/no-solo-microservicios/microservicio.png
     overlay_color: "#000000"
 title: No todo en microservicios
 description: "Amazon Video pasa parte de aplicativo de microservicios a monolitico."

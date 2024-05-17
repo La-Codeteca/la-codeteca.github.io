@@ -1,15 +1,14 @@
 ---
 layout: post
 header:
-    image: /assets/images/lowconsumption.png
+    image: /assets/images/zero-trust-security/gatito_hacker_2.jpg
+    overlay_color: "#000000"
 title: Zero Trust Security
 description: "En qué consiste este paradigma de seguridad."
 excerpt: "Un popular paradigma de seguridad."
 tags: [Security]
 categories: 
   - Security
-header:
-  overlay_color: "#000000"
 
 ---    
 

@@ -5,7 +5,7 @@ comments: true
 share: true
 author_profile: false
 header:
-    image: /assets/images/paginacion/paginacion.png
+    image: /assets/images/recursos-interesantes/toolbox.jpg
     overlay_color: "#000000"
 title: Recursos interesantes para desarrolladores
 description: "Una selección de algunos recursos útiles si te estas iniciando o quieres mejorar en el mundo de la programación"

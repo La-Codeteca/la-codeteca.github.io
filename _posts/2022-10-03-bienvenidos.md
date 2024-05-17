@@ -1,14 +1,12 @@
 ---
 layout: splash
 header:
-    image: /assets/images/lowconsumption.png
+  image: /assets/images/logo.png
+  overlay_color: "#000000"
 title: Bienvenidos a La Codeteca
 description: "Primer post de la nueva Codeteca."
 excerpt: "La Codeteca surgió en 2013 como un lugar dónde compartir pequeñas “pildoras” de código."
 tags: [bienvenida]
-
-header:
-  overlay_color: "#000000"
 
 ---               
 
