@@ -10,3 +10,15 @@ main:
     url: /videos/
   - title: "Contacto"
     url: /about/
+
+docs:
+  - title: Pildoras en otros lenguajes
+    children:
+      - title: "Python"
+        url: /filter/python
+      - title: "Bash"
+        url: /filter/bash
+      - title: "Miscelaneo"
+        url: /filter/other
+      - title: "Todas"
+        url: /pildoras/

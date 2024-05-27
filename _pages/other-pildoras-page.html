@@ -1,0 +1,24 @@
+---
+title: Miscelaneo
+excerpt: "Una pequeña ayuda para cuando estas codificando."
+layout: collection
+entries_layout: grid
+permalink: /filter/other
+author_profile: false
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/cabecera.gif
+sidebar:
+  nav: "docs"
+---
+
+{% assign items = site.pildoras | where: "tags", "default" %}
+{% for item in items %}
+<div class="grid__item">
+    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div class="archive__item-teaser"><img src="{{ item.header.image}}" alt=""></div>
+    <h2 class="archive__item-title no_toc" itemprop="headline"><a href="{{ item.url }}">{{ item.title  }}</a></h2>
+    {% if item.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ item.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    </article>
+  </div>
+{% endfor %}
