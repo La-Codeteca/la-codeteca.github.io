@@ -5,7 +5,7 @@ excerpt:
 tags: bash
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/bash.png
+  image: /assets/images/bash.png
   teaser: /assets/images/bash.png
 ---
 
