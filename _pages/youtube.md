@@ -1,5 +1,6 @@
 ---
 title: Vídeos
+excerpt: "60 fps valen más que 60.000 palabras."
 layout: collection
 permalink: /videos/
 collection: videos

@@ -22,3 +22,25 @@ docs:
         url: /filter/other
       - title: "Todas"
         url: /pildoras/
+
+categorias:
+- title: categorias
+  children:
+    - title: Arquitectura
+      url: /categories/#arquitectura
+    - title: Automatismos
+      url: /categories/#automatismo
+    - title: Developer
+      url: /categories/#developer
+    - title: Devops
+      url: /categories/#devops
+    - title: Backend
+      url: /categories/#backend
+    - title: Frontend
+      url: /categories/#frontend
+    - title: Security
+      url: /categories/#security
+    - title: show in x
+      url: /categories/#show-in-x
+    - title: Todo
+      url: /blog
