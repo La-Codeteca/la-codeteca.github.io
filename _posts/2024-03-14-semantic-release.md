@@ -28,7 +28,7 @@ Tres tipos de cambios, tres grupos de números separados por puntos... ¿casuali
 
 El número más a la izquierda marca la versión major, o visto de otra forma, de alguna manera es un contador de la veces que hemos hecho cambios de calado que no podemos asegurar que sean compatibles con lo que teniamos hasta este momento.
 
-![Resumen de Semantic Release](/assets/images/semantic-release/apuntes.jpg)
+![Resumen de Semantic Release](/assets/images/semantic-release/resumen_semantic_version.png)
 
 El siguiente número despúes del punto es la versión minor, una forma de tener controlado y poder relacionar una versión con las funcionalidades que incluye o no. Si por ejemplo incluimos la funcionalidad X en la versión de nuestro código que marcamos como 1.2.0 podemos sabremos que cualquier versión que tenga menos de un 2 en la posición central, no tendrá esa funcionalidad.
 
